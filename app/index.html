@@ -1,0 +1,35 @@
+<!--
+File: index.html
+Author: Gazdik Dorina
+Copyright: 2024, Gazdik Dorina
+Group: Szoft I-1-N
+Date: 2024-05-30
+Github: https://github.com/Gazdikdorina1230/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipszoid Térfogat számítás</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ellipszoid Térfogat számítás</h1>
+        <form id="ellipsoidForm">
+            <label for="axisA">Tengely a:</label>
+            <input type="number" id="axisA" required>
+            <label for="axisB">Tengely b:</label>
+            <input type="number" id="axisB" required>
+            <label for="axisC">Tengely c:</label>
+            <input type="number" id="axisC" required>
+            <button type="submit">Térfogat számítás</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
